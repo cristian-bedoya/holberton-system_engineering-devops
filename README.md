@@ -1,3 +1,2 @@
-* Shell, basics Project *# holberton-system_engineering-devops
-# holberton-system_engineering-devops
-# holberton-system_engineering-devops
+* Shell, basics Project *
+
