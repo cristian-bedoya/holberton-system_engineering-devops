@@ -1,2 +1,2 @@
 #!/bin/bas
-hecho $((BREATH**LOVE))
+echo $((BREATH**LOVE))
