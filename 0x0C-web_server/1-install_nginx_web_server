@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# installs nginx and configures it on a remote server
-
-apt-get -y update
+#Install nginx on your web-01 server
+apt-get update
 apt-get -y install nginx
 
 service nginx start
 
-echo "Holberton School" > /var/www/html/index.html
+file="/var/www/html/index.html"
+echo "Holberton School" > "$file"
