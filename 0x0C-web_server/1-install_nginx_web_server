@@ -5,5 +5,4 @@ apt-get -y install nginx
 
 service nginx start
 
-file="/var/www/html/index.html"
-echo "Holberton School" > "$file"
+echo "Holberton School" > /var/www/html/index.html
