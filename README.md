@@ -1,9 +1,6 @@
 <p align="center">
   <img src="https://www.holbertonschool.com/holberton-logo.png" width="360"/>
  <p align="center">
-    <a href="https://github.com/ellerbrock/open-source-badges/">
-        <img alt="bash" src="https://badges.frapsoft.com/bash/v1/bash.png?v=103" target="_blank" />
-    </a>
     <a href="https://github.com/cristian-bedoya/holberton-system_engineering-devops/commits/master">
         <img alt="commit_activity" src="https://img.shields.io/github/commit-activity/y/cristian-bedoya/holberton-system_engineering-devops" target="_blank" />
     </a>
@@ -24,7 +21,7 @@
       <img src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/bash_logo.png" alt="bash_logo"/>
   </p>
 </p>
-# Bash (*Bourne Again SHell*)
+## Bash (*Bourne Again SHell*)
 
 In this project, I reviewed the basic concepts about [BASH](https://www.gnu.org/software/bash/)
 
@@ -55,7 +52,7 @@ In this project, I reviewed the basic concepts about [BASH](https://www.gnu.org/
 ---
 
 <p align="center">
-    <h2 align="center">By, Ricardo Arquímedes Castro</h2>
+    <h2 align="center">By, Cristian Bedoya Blanco</h2>
       <p align="center">
         <a href="https://twitter.com/crisbedbla" target="_blank">
             <img alt="twitter_page" src="https://raw.githubusercontent.com/EckoJuan/Readme_template/master/images/twitter.png" style="float: center; margin-right: 10px" height="50" width="50">
@@ -69,7 +66,7 @@ In this project, I reviewed the basic concepts about [BASH](https://www.gnu.org/
       </p>
 </p>
 
-## Made with :heart: in
+## Made in:
 <img src="https://www.holbertonschool.com/holberton-logo.png"
      alt="Flow chart"
      style="float: left; margin-right: 10px;">
