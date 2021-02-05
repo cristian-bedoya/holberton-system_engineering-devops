@@ -8,12 +8,13 @@ import requests
 
 def top_ten(subreddit):
     """ Returns Number of subscribed """
-    url = 'https://www.reddit.com/r/{}/hot.json?limit=10'.format(subreddit)
+    url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
     headers = {"User-Agent": "My-User-Agent"}
     data_inf = requests.get(url, headers=headers, allow_redirects=False)
 
-    if data_inf.status_code > 300:
-        print('None')
-
-    for child in data_inf.json().get("data").get("children"):
-        print(child.get("data").get("title"))
+    if data_inf.status_code == 200:
+        data = data_inf.json()['data']['children']
+        for posts in data[:10]:
+            print(posts['data']['title'])
+    else:
+        print(None)
