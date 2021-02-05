@@ -14,10 +14,10 @@ def recurse(subreddit, hot_list=[], aft=""):
     response = requests.get(u, headers=headers)
 
     if response.status_code == 200:
-        aft = response.json().get('data').get('children')
+        aft = response.json().get('data').get('after')
 
         for element in response.json().get('data').get('children'):
-            hot_list.append(element.get('data').get('children'))
+            hot_list.append(element.get('data').get('title'))
 
         if aft:
             recurse(subreddit, hot_list, aft)
